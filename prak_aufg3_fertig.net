@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml xmlns = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+  <net id = "n1"
+       type = "http://www.irt.rwth-aachen.de/download/netlab/pntd/pnsmNet">
+    <name>
+      <text>prak_aufg3_fertig</text>
+    </name>
+    <place id = "p1">
+      <graphics>
+        <position x = "1120"
+                  y = "720"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>1.Stock</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p2">
+      <graphics>
+        <position x = "860"
+                  y = "460"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>2. Stock</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p3">
+      <graphics>
+        <position x = "1120"
+                  y = "180"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>3. Stock</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p4">
+      <graphics>
+        <position x = "1300"
+                  y = "460"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>2. StockR</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p5">
+      <graphics>
+        <position x = "640"
+                  y = "279"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>H&#228;lt</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p6">
+      <graphics>
+        <position x = "560"
+                  y = "336"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Offen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p7">
+      <graphics>
+        <position x = "661"
+                  y = "196"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Haltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p8">
+      <graphics>
+        <position x = "780"
+                  y = "195"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>KeinHaltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p9">
+      <graphics>
+        <position x = "720"
+                  y = "336"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Geschlossen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p10">
+      <graphics>
+        <position x = "1120"
+                  y = "461"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>4</text>
+      </capacity>
+      <name>
+        <text>GlobalerHaltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p11">
+      <graphics>
+        <position x = "1548"
+                  y = "279"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>H&#228;lt</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p12">
+      <graphics>
+        <position x = "1628"
+                  y = "336"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Offen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p13">
+      <graphics>
+        <position x = "1527"
+                  y = "196"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Haltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p14">
+      <graphics>
+        <position x = "1408"
+                  y = "195"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>KeinHaltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p15">
+      <graphics>
+        <position x = "1468"
+                  y = "336"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Geschlossen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p16">
+      <graphics>
+        <position x = "1568"
+                  y = "647"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>H&#228;lt</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p17">
+      <graphics>
+        <position x = "1648"
+                  y = "590"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Offen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p18">
+      <graphics>
+        <position x = "1547"
+                  y = "730"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Haltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p19">
+      <graphics>
+        <position x = "1428"
+                  y = "731"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>KeinHaltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p20">
+      <graphics>
+        <position x = "1488"
+                  y = "590"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Geschlossen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p21">
+      <graphics>
+        <position x = "658"
+                  y = "667"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>H&#228;lt</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p22">
+      <graphics>
+        <position x = "578"
+                  y = "610"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Offen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p23">
+      <graphics>
+        <position x = "679"
+                  y = "750"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Haltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p24">
+      <graphics>
+        <position x = "798"
+                  y = "751"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>1</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>KeinHaltewunsch</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <place id = "p25">
+      <graphics>
+        <position x = "738"
+                  y = "610"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <initialMarking>
+        <text>0</text>
+      </initialMarking>
+      <capacity>
+        <text>1</text>
+      </capacity>
+      <name>
+        <text>Geschlossen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </place>
+    <transition id = "t1">
+      <graphics>
+        <position x = "880"
+                  y = "620"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Fahre2</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t2">
+      <graphics>
+        <position x = "880"
+                  y = "340"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Fahre3</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t3">
+      <graphics>
+        <position x = "1300"
+                  y = "340"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Fahre2R</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t4">
+      <graphics>
+        <position x = "1300"
+                  y = "580"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Fahre1R</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t5">
+      <graphics>
+        <position x = "720"
+                  y = "278"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Anhalten</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t6">
+      <graphics>
+        <position x = "560"
+                  y = "276"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>&#214;ffne</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t7">
+      <graphics>
+        <position x = "640"
+                  y = "336"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Schliesse</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t8">
+      <graphics>
+        <position x = "720"
+                  y = "196"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Haltew&#252;nschen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t9">
+      <graphics>
+        <position x = "780"
+                  y = "335"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Fahre3&apos;</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t10">
+      <graphics>
+        <position x = "1468"
+                  y = "278"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Anhalten</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t11">
+      <graphics>
+        <position x = "1628"
+                  y = "276"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>&#214;ffne</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t12">
+      <graphics>
+        <position x = "1548"
+                  y = "336"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Schliesse</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t13">
+      <graphics>
+        <position x = "1468"
+                  y = "196"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Haltenw&#252;nschen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t14">
+      <graphics>
+        <position x = "1408"
+                  y = "335"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Fahre2R&apos;</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t15">
+      <graphics>
+        <position x = "1488"
+                  y = "648"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Anhalten</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t16">
+      <graphics>
+        <position x = "1648"
+                  y = "650"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>&#214;ffne</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t17">
+      <graphics>
+        <position x = "1568"
+                  y = "590"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Schliesse</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t18">
+      <graphics>
+        <position x = "1488"
+                  y = "730"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Haltew&#252;nschen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t19">
+      <graphics>
+        <position x = "1428"
+                  y = "591"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Fahre1R&apos;</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t20">
+      <graphics>
+        <position x = "738"
+                  y = "668"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Anhalten</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t21">
+      <graphics>
+        <position x = "578"
+                  y = "670"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>&#214;ffne</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t22">
+      <graphics>
+        <position x = "658"
+                  y = "610"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Schliesse</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t23">
+      <graphics>
+        <position x = "738"
+                  y = "750"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Haltew&#252;nschen</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <transition id = "t24">
+      <graphics>
+        <position x = "798"
+                  y = "611"/>
+        <dimension x = "40"
+                   y = "40"/>
+      </graphics>
+      <name>
+        <text>Fahre2&apos;</text>
+        <graphics>
+          <offset x = "0"
+                  y = "-28"/>
+        </graphics>
+      </name>
+    </transition>
+    <arc id = "a1"
+         source = "p1"
+         target = "t1"/>
+    <arc id = "a2"
+         source = "t1"
+         target = "p2"/>
+    <arc id = "a3"
+         source = "t2"
+         target = "p3"/>
+    <arc id = "a4"
+         source = "p3"
+         target = "t3"/>
+    <arc id = "a5"
+         source = "p4"
+         target = "t4"/>
+    <arc id = "a6"
+         source = "t4"
+         target = "p1"/>
+    <arc id = "a7"
+         source = "t3"
+         target = "p4"/>
+    <arc id = "a8"
+         source = "t5"
+         target = "p5"/>
+    <arc id = "a9"
+         source = "p5"
+         target = "t6"/>
+    <arc id = "a10"
+         source = "p6"
+         target = "t7"/>
+    <arc id = "a11"
+         source = "t6"
+         target = "p6"/>
+    <arc id = "a12"
+         source = "p2"
+         target = "t2"/>
+    <arc id = "a13"
+         source = "p8"
+         target = "t2"/>
+    <arc id = "a14"
+         source = "p8"
+         target = "t8"/>
+    <arc id = "a15"
+         source = "t8"
+         target = "p7"/>
+    <arc id = "a16"
+         source = "t7"
+         target = "p9"/>
+    <arc id = "a17"
+         source = "p9"
+         target = "t9"/>
+    <arc id = "a18"
+         source = "t9"
+         target = "p8"/>
+    <arc id = "a19"
+         source = "p7"
+         target = "t5"/>
+    <arc id = "a20"
+         source = "p10"
+         target = "t2">
+      <graphics>
+        <position x = "1120"
+                  y = "340"/>
+      </graphics>
+    </arc>
+    <arc id = "a21"
+         source = "t2"
+         target = "p10"/>
+    <arc id = "a22"
+         source = "t10"
+         target = "p11"/>
+    <arc id = "a23"
+         source = "p11"
+         target = "t11"/>
+    <arc id = "a24"
+         source = "p12"
+         target = "t12"/>
+    <arc id = "a25"
+         source = "t11"
+         target = "p12"/>
+    <arc id = "a26"
+         source = "p14"
+         target = "t13"/>
+    <arc id = "a27"
+         source = "t13"
+         target = "p13"/>
+    <arc id = "a28"
+         source = "t12"
+         target = "p15"/>
+    <arc id = "a29"
+         source = "p15"
+         target = "t14"/>
+    <arc id = "a30"
+         source = "t14"
+         target = "p14"/>
+    <arc id = "a31"
+         source = "p13"
+         target = "t10"/>
+    <arc id = "a32"
+         source = "p3"
+         target = "t10"/>
+    <arc id = "a33"
+         source = "t13"
+         target = "p10">
+      <graphics>
+        <position x = "1460"
+                  y = "100"/>
+        <position x = "1320"
+                  y = "100"/>
+      </graphics>
+    </arc>
+    <arc id = "a34"
+         source = "t14"
+         target = "p4"/>
+    <arc id = "a35"
+         source = "p10"
+         target = "t10">
+      <graphics>
+        <position x = "1200"
+                  y = "440"/>
+        <position x = "1200"
+                  y = "340"/>
+        <position x = "1300"
+                  y = "260"/>
+      </graphics>
+    </arc>
+    <arc id = "a36"
+         source = "t3"
+         target = "p10">
+      <graphics>
+        <position x = "1240"
+                  y = "340"/>
+        <position x = "1240"
+                  y = "340"/>
+      </graphics>
+    </arc>
+    <arc id = "a37"
+         source = "p10"
+         target = "t3"/>
+    <arc id = "a38"
+         source = "p14"
+         target = "t3"/>
+    <arc id = "a39"
+         source = "t15"
+         target = "p16"/>
+    <arc id = "a40"
+         source = "p16"
+         target = "t16"/>
+    <arc id = "a41"
+         source = "p17"
+         target = "t17"/>
+    <arc id = "a42"
+         source = "t16"
+         target = "p17"/>
+    <arc id = "a43"
+         source = "p19"
+         target = "t18"/>
+    <arc id = "a44"
+         source = "t18"
+         target = "p18"/>
+    <arc id = "a45"
+         source = "t17"
+         target = "p20"/>
+    <arc id = "a46"
+         source = "p20"
+         target = "t19"/>
+    <arc id = "a47"
+         source = "t19"
+         target = "p19"/>
+    <arc id = "a48"
+         source = "p18"
+         target = "t15"/>
+    <arc id = "a49"
+         source = "p10"
+         target = "t4"/>
+    <arc id = "a50"
+         source = "t4"
+         target = "p10">
+      <graphics>
+        <position x = "1180"
+                  y = "580"/>
+      </graphics>
+    </arc>
+    <arc id = "a51"
+         source = "p10"
+         target = "t15">
+      <graphics>
+        <position x = "1180"
+                  y = "680"/>
+      </graphics>
+    </arc>
+    <arc id = "a52"
+         source = "p19"
+         target = "t4"/>
+    <arc id = "a53"
+         source = "t18"
+         target = "p10">
+      <graphics>
+        <position x = "1480"
+                  y = "800"/>
+        <position x = "1260"
+                  y = "800"/>
+        <position x = "1220"
+                  y = "500"/>
+      </graphics>
+    </arc>
+    <arc id = "a54"
+         source = "t19"
+         target = "p1"/>
+    <arc id = "a55"
+         source = "p4"
+         target = "t15">
+      <graphics>
+        <position x = "1360"
+                  y = "460"/>
+        <position x = "1380"
+                  y = "640"/>
+      </graphics>
+    </arc>
+    <arc id = "a56"
+         source = "t20"
+         target = "p21"/>
+    <arc id = "a57"
+         source = "p21"
+         target = "t21"/>
+    <arc id = "a58"
+         source = "p22"
+         target = "t22"/>
+    <arc id = "a59"
+         source = "t21"
+         target = "p22"/>
+    <arc id = "a60"
+         source = "p24"
+         target = "t23"/>
+    <arc id = "a61"
+         source = "t23"
+         target = "p23"/>
+    <arc id = "a62"
+         source = "t22"
+         target = "p25"/>
+    <arc id = "a63"
+         source = "p25"
+         target = "t24"/>
+    <arc id = "a64"
+         source = "t24"
+         target = "p24"/>
+    <arc id = "a65"
+         source = "p23"
+         target = "t20"/>
+    <arc id = "a66"
+         source = "p1"
+         target = "t20"/>
+    <arc id = "a67"
+         source = "t23"
+         target = "p10">
+      <graphics>
+        <position x = "740"
+                  y = "820"/>
+        <position x = "960"
+                  y = "820"/>
+      </graphics>
+    </arc>
+    <arc id = "a68"
+         source = "p10"
+         target = "t1"/>
+    <arc id = "a69"
+         source = "t1"
+         target = "p10">
+      <graphics>
+        <position x = "900"
+                  y = "560"/>
+        <position x = "940"
+                  y = "480"/>
+      </graphics>
+    </arc>
+    <arc id = "a70"
+         source = "t24"
+         target = "p2"/>
+    <arc id = "a71"
+         source = "p24"
+         target = "t1"/>
+    <arc id = "a72"
+         source = "p10"
+         target = "t20">
+      <graphics>
+        <position x = "920"
+                  y = "740"/>
+      </graphics>
+    </arc>
+    <arc id = "a73"
+         source = "t1"
+         target = "p24">
+      <graphics>
+        <position x = "880"
+                  y = "760"/>
+      </graphics>
+    </arc>
+    <arc id = "a74"
+         source = "t4"
+         target = "p19">
+      <graphics>
+        <position x = "1300"
+                  y = "740"/>
+      </graphics>
+    </arc>
+    <arc id = "a75"
+         source = "t3"
+         target = "p14">
+      <graphics>
+        <position x = "1300"
+                  y = "200"/>
+      </graphics>
+    </arc>
+    <arc id = "a76"
+         source = "t9"
+         target = "p3"/>
+    <arc id = "a77"
+         source = "t2"
+         target = "p8">
+      <graphics>
+        <position x = "880"
+                  y = "180"/>
+      </graphics>
+    </arc>
+    <arc id = "a78"
+         source = "t8"
+         target = "p10">
+      <graphics>
+        <position x = "720"
+                  y = "120"/>
+        <position x = "940"
+                  y = "120"/>
+      </graphics>
+    </arc>
+    <arc id = "a79"
+         source = "p10"
+         target = "t5">
+      <graphics>
+        <position x = "920"
+                  y = "220"/>
+      </graphics>
+    </arc>
+    <arc id = "a80"
+         source = "p2"
+         target = "t5">
+      <graphics>
+        <position x = "820"
+                  y = "280"/>
+      </graphics>
+    </arc>
+    <toolspecific tool = "netlab"
+                  version = "1.8">
+      <developer_release version = "1,8,0,0"
+                         build = "3381"
+                         svn_revision = "419"
+                         year = "2007"
+                         month = "06"
+                         day = "22"/>
+      <view xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
+            zoom = "75"
+            grid = "true"
+            numbering = "true"
+            names = "false"
+            description = "true"
+            colored_invariants = "true">
+        <scrollerposition x = "69"
+                          y = "113"/>
+      </view>
+      <calculation xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
+                   autocalculate_invariants = "false"
+                   firing_rule = "strong"/>
+      <petrinetstatemodel self_loops = "true"
+                          io_extensions = "true"
+                          test_arcs = "allowed_at_all_nodes"
+                          inhibitor_arcs = "allowed_at_input_nodes"/>
+    </toolspecific>
+  </net>
+</pnml>
