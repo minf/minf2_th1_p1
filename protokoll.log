@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  8 MAY 2011 23:23
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  8 MAY 2011 23:43
 entering extended mode
  %&-line parsing enabled.
 **protokoll
@@ -441,7 +441,12 @@ LaTeX Font Info:    ... okay on input line 13.
 \MPscratchDim=\dimen116
 \MPnumerator=\count107
 \everyMPtoPDFconversion=\toks23
-) [1
+)
+Overfull \hbox (8.59937pt too wide) in paragraph at lines 16--16
+ [][] 
+ []
+
+[1
 
 
 
@@ -574,7 +579,7 @@ Overfull \hbox (24.3092pt too wide) in paragraph at lines 337--357
 Here is how much of TeX's memory you used:
  3109 strings out of 493848
  41642 string characters out of 1152823
- 136502 words of memory out of 3000000
+ 136519 words of memory out of 3000000
  6356 multiletter control sequences out of 15000+50000
  10229 words of font info for 40 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -592,7 +597,7 @@ texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/doublest
 roke/dsrom10.pfb>
-Output written on protokoll.pdf (9 pages, 220394 bytes).
+Output written on protokoll.pdf (9 pages, 220406 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
