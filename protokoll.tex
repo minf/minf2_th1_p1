@@ -1,5 +1,5 @@
 
-\documentclass{report}
+\documentclass{scrreprt}
 
 \usepackage[english,ngerman]{babel} 
 \usepackage[utf8]{inputenc} 
@@ -27,7 +27,7 @@
 
 $N = (P, T, W, K, M_0)$
 
-$P_1 = \{ 1Stock, 2Stock, 3Stock, 2StockR, GlobalerHaltewunsch \}$
+$P_1 = \{ Stock_1, Stock_2, Stock_3, Stock_{2R}, GlobalerHaltewunsch \}$
 
 $P_2 = \bigcup_{i \in \{ 1, 2, 2R, 1R \}} \{ Haltewunsch_i, KeinHaltewunsch_i, H"alt_i, Offen_i, Geschlossen_i \}$
 
@@ -36,11 +36,11 @@ $P = P_1 \cup P_2$
 Es gelte:
 
 $
-1Stock < 2Stock < 3Stock < 2StockR < GlobalerHaltewunsch 
-< Haltewunsch_1 < KeinHaltewunsch_1 < H"alt_1 < Offen_1 < Geschlossen_1
-< Haltewunsch_2 < KeinHaltewunsch_2 < H"alt_2 < Offen_2 < Geschlossen_2
-< Haltewunsch_2R < KeinHaltewunsch_2R < H"alt_2R < Offen_2R < Geschlossen_2R
-< Haltewunsch_1R < KeinHaltewunsch_1R < H"alt_1R < Offen_1R < Geschlossen_1R
+Stock_1 < Stock_2 < Stock_3 < Stock_{2R} < GlobalerHaltewunsch < 
+Haltewunsch_1 < KeinHaltewunsch_1 < H"alt_1 < Offen_1 < Geschlossen_1 < 
+Haltewunsch_2 < KeinHaltewunsch_2 < H"alt_2 < Offen_2 < Geschlossen_2 < 
+Haltewunsch_{2R} < KeinHaltewunsch_{2R} < H"alt_{2R} < Offen_{2R} < Geschlossen_{2R} < 
+Haltewunsch_{1R} < KeinHaltewunsch_{1R} < H"alt_{1R} < Offen_{1R} < Geschlossen_{1R}
 $
 
 $T = \bigcup_{i \in \{ 1, 2, 2R, 1R \}} \{ Fahre_i, Fahre_i', Haltew"unschen_i, Anhalten_i, "Offne_i, Schliesse_i \}$
@@ -57,29 +57,89 @@ K(p) =
     3, & \text{falls $p \in \{ GlobalerHaltewunsch \}$} \\ 
     1, & \text{sonst} \end{cases}$
 
-$M_0 = (1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)$
+$M_0 = (
+1, 0, 0, 0, 0, 
+0, 1, 0, 0, 0, 
+0, 1, 0, 0, 0, 
+0, 1, 0, 0, 0, 
+0, 1, 0, 0, 0
+)$
 
 \item Berechnet formal die Schaltfolge zu einer gegebenen Anfangsmarkierung, die eine Fahrt vom ersten in den dritten Stock beschreibt.
 
-Anfangsmarkierung: $M_0 = (1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)$
+% Anfangsmarkierung
 
-Vorbereich von $Haltew"unschen_2R$:
+Anfangsmarkierung: 
+$M_0 = (
+1, 0, 0, 0, 1, 
+0, 1, 0, 0, 0, 
+0, 1, 0, 0, 0, 
+1, 0, 0, 0, 0, 
+0, 1, 0, 0, 0
+)$
 
-$\bullet Haltew"unschen_{2R} = \{ KeinHaltewunsch_{2R} \}$
+% Haltewünschen_2R soll schalten
 
-$Haltew"unschen_{2R}$ aktiviert, da
+\textbf{Vorbereich von $Haltew"unschen2R$}:
 
-$M(KeinHaltewunsch_{2R}) = 1 \geq W(KeinHaltewunsch_{2R}, Haltew"unschen_{2R})$
+\begin{addmargin}[1cm]{0cm}
+  $\bullet Haltew"unschen_{2R} = \{ KeinHaltewunsch_{2R} \}$
 
-Nachbereich von $Haltew"unschen_2R$:
+  $Haltew"unschen_{2R}$ aktiviert, da
 
-$Haltew"unschen_{2R} \bullet = \{ Haltewunsch_{2R}, GlobalerHaltewunsch \}$
+  $M(KeinHaltewunsch_{2R}) = 1 \geq W(KeinHaltewunsch_{2R}, Haltew"unschen_{2R})$
+\end{addmargin}
 
-$K(Haltewunsch_{2R}) = 1 \geq 1 = 0 + 1 = M(Haltewunsch_{2R}) + W(Haltew"unschen_{2R}, Haltewunsch_{2R})$
+\textbf{Nachbereich von $Haltew"unschen_2R$}:
 
-$K(Globalerhaltewunsch) = 3 \geq 1 = 0 + 1 = M(GlobalerHaltewunsch) + W(Haltew"unschen_{2R}, GlobalerHaltewunsch)$
+\begin{addmargin}[1cm]{0cm}
+  $Haltew"unschen_{2R} \bullet = \{ Haltewunsch_{2R}, GlobalerHaltewunsch \}$
 
-$\implies Haltew"unschen_{2R} aktiviert$
+  $K(Haltewunsch_{2R}) = 1 \geq 1 = 0 + 1 = M(Haltewunsch_{2R}) + W(Haltew"unschen_{2R}, Haltewunsch_{2R})$
+
+  $K(Globalerhaltewunsch) = 3 \geq 1 = 0 + 1 = M(GlobalerHaltewunsch) + W(Haltew"unschen_{2R}, GlobalerHaltewunsch)$
+
+  $\implies Haltew"unschen_{2R} aktiviert$
+\end{addmargin}
+
+% Folgezustand M1
+
+$M_0 \rightarrow M_1$
+
+\begin{addmargin}[1cm]{0cm}
+  $M_1(GlobalerHaltewunsch) = M_0(GlobalerHaltewunsch) - W(GlobalerHaltewunsch, Haltew"unschen_{2R}) + W(Haltew"unschen_{2R}, GlobalerHaltewunsch) = 0 - 0 + 1 = 1$
+
+  $M_1(KeinHaltewunsch_{2R}) = M_0(KeinHaltewunsch_{2R}) - W(KeinHaltewunsch_{2R}, Haltew"unschen_{2R}) + W(Haltew"unschen_{2R}, KeinHaltewunsch_{2R}) = 1 - 1 + 0 = 0$
+
+  $M_1(Haltewunsch_{2R}) = M_0(Haltewunsch_{2R}) - W(Haltewunsch_{2R}, Haltew"unschen_{2R}) + W(Haltew"unschen_{2R}, Haltewunsch_{2R}) = 0 - 0 + 1 = 1$
+
+  $\implies$ 
+  $M_1 = (
+  1, 0, 0, 0, 0, 
+  0, 1, 0, 0, 0, 
+  0, 1, 0, 0, 0, 
+  0, 1, 0, 0, 0, 
+  0, 1, 0, 0, 0
+  )$
+\end{addmargin}
+
+% Fahre2 soll schalten
+
+\textbf{Vorbereich von $Fahre_2$}
+
+\begin{addmargin}[1cm]{0cm}
+  $\bullet Fahre_2 = \{ KeinHaltewunsch_1 \}$
+
+  $Fahre_2$ aktiviert, da
+
+  $M(KeinHaltewunsch_1) = 1 \geq W(KeinHaltewunsch_1, Fahre_2) = 1$  
+\end{addmargin}
+
+\textbf{Nachbereich von $Fahre_2$}
+
+\begin{addmargin}[1cm]{0cm}
+  $Fahre_2 \bullet = \{ GlobalerHaltewunsch, Stock_2, KeinHaltewunsch \}$
+\end{addmargin}
 
 \end{enumerate}
 
