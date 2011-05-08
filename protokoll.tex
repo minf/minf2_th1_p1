@@ -329,6 +329,32 @@ Der Aufzug ist nun auf dem 3. Stock und hat angehalten.
 
 \includegraphics[width=1\textwidth]{eg.pdf}
 
+Gebt das Netzkomplement Eures Netzes formal und grafisch an. Ggf koennt Ihr auch
+einen aussagekraeftigen Ausschnitt waehlen, falls das Netz zu gross wird.
+
+\includegraphics[width=1\textwidth]{prak_aufg3_fertig_bugfix_komplement.pdf}
+
+Formale Beschreibung:\\
+$N' = (P',T,W',M_0')\\
+P' = P \cup \overline{P}\\
+P = siehe oben\\
+\overline{P}= \lbrace\overline{1Stock},\overline{2Stock},\overline{3Stock},\overline{2StockR},\\
+\overline{Haelt},\overline{Offen},\overline{Haltewunsch},\overline{KeinHaltewunsch},\overline{Geschlossen},\overline{GlobalerHaltewunsch},\\
+\overline{Haelt},\overline{Offen},\overline{Haltewunsch},\overline{KeinHaltewunsch},\overline{Geschlossen},\\
+\overline{Haelt},\overline{Offen},\overline{Haltewunsch},\overline{KeinHaltewunsch},\overline{Geschlossen},\\
+\overline{Haelt},\overline{Offen},\overline{Haltewunsch},\overline{KeinHaltewunsch},\overline{Geschlossen}\rbrace\\
+T= \lbrace T1 bis T24 \rbrace\\
+W' : (P' \times T) \cup (T \times P') \rightarrow \mathds{N}_0
+\forall (x, y) \in (P' \times T) \cup (T \times P'): W'(x,y) = 1\\
+M_0' = (
+0, 1, 1, 1, 1, 
+1, 0, 1, 1, 4, 
+1, 0, 1, 1, 1, 
+1, 0, 1, 1, 1, 
+1, 0, 1, 1, 1
+)
+$
+
 \end{enumerate}
 
 \end{document}
