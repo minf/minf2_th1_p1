@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  8 MAY 2011 11:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  8 MAY 2011 16:13
 entering extended mode
  %&-line parsing enabled.
 **protokoll
@@ -451,10 +451,10 @@ Overfull \hbox (9.19768pt too wide) in paragraph at lines 20--21
 u. Wenn ei-ne Halte-Anforderung
  []
 
-<prak_aufg3_fertig_bugfix.pdf, id=7, 794.97pt x 614.295pt>
-File: prak_aufg3_fertig_bugfix.pdf Graphic file (type pdf)
+<prak_aufg3_fertig_bugfix2.pdf, id=7, 794.97pt x 614.295pt>
+File: prak_aufg3_fertig_bugfix2.pdf Graphic file (type pdf)
 
-<use prak_aufg3_fertig_bugfix.pdf>
+<use prak_aufg3_fertig_bugfix2.pdf>
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 24--25
 [][] 
  []
@@ -478,18 +478,34 @@ Overfull \hbox (8.79265pt too wide) in paragraph at lines 38--45
 tewunsch[] <
  []
 
-[2 <./prak_aufg3_fertig_bugfix.pdf, page is rotated 90 degrees>]
+[2 <./prak_aufg3_fertig_bugfix2.pdf, page is rotated 90 degrees>]
 Overfull \hbox (15.61317pt too wide) in paragraph at lines 46--47
 []$\OML/cmm/m/it/10.95 T \OT1/cmr/m/n/10.95 = [][]\OMS/cmsy/m/n/10.95 f\OML/cmm
 /m/it/10.95 Fahre[]; Fahre[]; Haltew[]nschen[]; Anhalten[]; []ffne[]; Schliesse
 []\OMS/cmsy/m/n/10.95 g$ 
  []
 
-LaTeX Font Info:    Try loading font information for U+dsrom on input line 48.
-(/usr/share/texmf-texlive/tex/latex/doublestroke/Udsrom.fd
+
+Overfull \hbox (6.16226pt too wide) in paragraph at lines 48--96
+\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 Haltew[]nschen[]; GlobalerHaltewunsch\O
+T1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95
+ Haltew[]nschen[]; Haltewunsch[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; [] 
+ []
+
+
+Overfull \hbox (31.68896pt too wide) in paragraph at lines 48--96
+\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 Haltew[]nschen[]; GlobalerHaltewunsch\O
+T1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95
+ KeinHaltewunsch[]; Haltew[]nschen[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 ; [
+] 
+ []
+
+[3]
+LaTeX Font Info:    Try loading font information for U+dsrom on input line 99.
+ (/usr/share/texmf-texlive/tex/latex/doublestroke/Udsrom.fd
 File: Udsrom.fd 1995/08/01 v0.1 Double stroke roman font definitions
 )
-Overfull \hbox (0.2633pt too wide) in paragraph at lines 72--80
+Overfull \hbox (0.2633pt too wide) in paragraph at lines 119--127
 []\OT1/cmr/m/n/10.95 Anfangsmarkierung: $\OML/cmm/m/it/10.95 M[] \OT1/cmr/m/n/1
 0.95 = (1\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/c
 mr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \
@@ -507,42 +523,15 @@ L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95
  []
 
 
-Overfull \hbox (10.56784pt too wide) in paragraph at lines 90--91
+Overfull \hbox (10.56784pt too wide) in paragraph at lines 137--138
 []$\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 KeinHaltewunsch
 []\OT1/cmr/m/n/10.95 ) = 1 \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 W\OT1/cm
 r/m/n/10.95 (\OML/cmm/m/it/10.95 KeinHaltewunsch[]; Haltew[]nschen[]\OT1/cmr/m/
 n/10.95 )$ 
  []
 
-[3]
-Overfull \hbox (113.8047pt too wide) in paragraph at lines 147--148
-[]$\OML/cmm/m/it/10.95 K\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 GlobalerHaltewu
-nsch\OT1/cmr/m/n/10.95 ) = 3 \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 M\OT1/
-cmr/m/n/10.95 (\OML/cmm/m/it/10.95 GlobalerHaltewunsch\OT1/cmr/m/n/10.95 ) + \O
-ML/cmm/m/it/10.95 W\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 Fahre[]; GlobalerHal
-tewunsch\OT1/cmr/m/n/10.95 ) =
- []
-
-
-Overfull \hbox (76.45448pt too wide) in paragraph at lines 152--153
-[]$\OML/cmm/m/it/10.95 K\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 KeinHaltewunsch
-[]\OT1/cmr/m/n/10.95 ) = 1 \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 M\OT1/cm
-r/m/n/10.95 (\OML/cmm/m/it/10.95 KeinHaltewunsch[]\OT1/cmr/m/n/10.95 ) \OMS/cms
-y/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 W\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 Ke
-inHaltewunsch[]; Fahre[]\OT1/cmr/m/n/10.95 ) +
- []
-
-[4]
-Overfull \hbox (113.8047pt too wide) in paragraph at lines 201--202
-[]$\OML/cmm/m/it/10.95 K\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 GlobalerHaltewu
-nsch\OT1/cmr/m/n/10.95 ) = 3 \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 M\OT1/
-cmr/m/n/10.95 (\OML/cmm/m/it/10.95 GlobalerHaltewunsch\OT1/cmr/m/n/10.95 ) + \O
-ML/cmm/m/it/10.95 W\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 Fahre[]; GlobalerHal
-tewunsch\OT1/cmr/m/n/10.95 ) =
- []
-
-
-Overfull \hbox (0.94386pt too wide) in paragraph at lines 245--246
+[4] [5]
+Overfull \hbox (0.94386pt too wide) in paragraph at lines 290--291
 []$\OML/cmm/m/it/10.95 M\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 GlobalerHaltewu
 nsch\OT1/cmr/m/n/10.95 ) = 1 \OMS/cmsy/m/n/10.95 ^^U \OML/cmm/m/it/10.95 W\OT1/
 cmr/m/n/10.95 (\OML/cmm/m/it/10.95 GlobalerHaltewunsch; Anhalten[]\OT1/cmr/m/n/
@@ -550,7 +539,7 @@ cmr/m/n/10.95 (\OML/cmm/m/it/10.95 GlobalerHaltewunsch; Anhalten[]\OT1/cmr/m/n/
  []
 
 
-Overfull \hbox (20.60583pt too wide) in paragraph at lines 263--264
+Overfull \hbox (20.60583pt too wide) in paragraph at lines 308--309
 []$\OML/cmm/m/it/10.95 M[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 Stock[]\OT1/c
 mr/m/n/10.95 ) = \OML/cmm/m/it/10.95 M[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95
  Stock[]\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^@ \OML/cmm/m/it/10.95 W\OT1/
@@ -559,30 +548,38 @@ ML/cmm/m/it/10.95 W\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 Anhalten[]; Stock[]\
 OT1/cmr/m/n/10.95 ) =
  []
 
-[5] [6] (./protokoll.aux) ) 
+[6] <eg.pdf, id=38, 597.23125pt x 845.1575pt>
+File: eg.pdf Graphic file (type pdf)
+ <use eg.pdf>
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 330--331
+[][] 
+ []
+
+[7] [8 <./eg.pdf>] (./protokoll.aux) ) 
 Here is how much of TeX's memory you used:
- 3099 strings out of 493848
- 41374 string characters out of 1152823
- 128502 words of memory out of 3000000
- 6348 multiletter control sequences out of 15000+50000
+ 3104 strings out of 493848
+ 41428 string characters out of 1152823
+ 136502 words of memory out of 3000000
+ 6352 multiletter control sequences out of 15000+50000
  10229 words of font info for 40 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  35i,13n,35p,428b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10
-.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/doublestroke/dsrom10.pfb>
-Output written on protokoll.pdf (6 pages, 159551 bytes).
+</usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/doublestroke/dsrom10.pfb>
+Output written on protokoll.pdf (8 pages, 196991 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

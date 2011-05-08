@@ -21,7 +21,7 @@
 
 \item Modelliert nun einen Fahrstuhl mit einer einfachen Steuerung. Der Fahrstuhl fährt nur, wenn eine Anforderung vorliegt. Falls eine Anforderung für das Stockwerk, in dem sich der Fahrstuhl gerade befindet, vorliegt, werden die Türen geöffnet und anschließend geschlossen. Es wird immer nur eine Anforderung bearbeitet, d.h. Anforderungen werden nicht angenommen, wenn der Fahrstuhl gerade arbeitet.
 
-\includegraphics[width=1\textwidth]{prak_aufg3_fertig_bugfix.pdf}
+\includegraphics[width=1\textwidth]{prak_aufg3_fertig_bugfix2.pdf}
 
 \item Gebt das Netz formal in klassischer Darstellung an.
 
@@ -45,9 +45,56 @@ $
 
 $T = \bigcup_{i \in \{ 1, 2, 2R, 1R \}} \{ Fahre_i, Fahre_i', Haltew"unschen_i, Anhalten_i, "Offne_i, Schliesse_i \}$
 
-$W : (P \times T) \cup (T \times P) \rightarrow \mathds{N}_0$
+$
+W(x,y) = 1 f"ur (x,y) \in \{
+  (Stock_1, Fahre_2), (Stock_1, Anhalten_1), \\
+  (Fahre_{1R}, Stock_1), (Fahre_{1R'}, Stock_1), \\
+  (KeinHaltewunsch_1, Haltew"unschen_1), (KeinHaltewunsch_1, Fahre_2), \\
+  (Fahre_2, KeinHaltewunsch_1), (Schliesse_1, KeinHaltewunsch_1), \\
+  (Haltew"unschen_1, Haltewunsch_1), (Haltew"unschen_1, GlobalerHaltewunsch), \\
+  (Haltewunsch_1, Anhalten_1), (GlobalerHaltewunsch, Anhalten_1), \\
+  (Anhalten_1, H"alt_1), (H"alt_1, "Offne_1), \\
+  ("Offne_1, Offen_1), (Offen_1, Schliesse_1), \\
+  (Schliesse_1, Geschlossen_1), (Geschlossen_1, Fahre_{2'}), \\
+  (Fahre_{2'}, Stock_2), (Fahre_{2'}, GlobalerHaltewunsch), \\
+  (GlobalerHaltewunsch, Fahre_{2'}), (Fahre_2, GlobalerHaltewunsch), \\
+  (GlobalerHaltewunsch, Fahre_2), (Fahre_2, Stock_2), \\
+  (Stock_2, Fahre_3), (Stock_2, Anhalten_2), \\
+  (Fahre_3, Stock_3), (KeinHaltewunsch_2, Fahre_3), \\
+  (Fahre_3, KeinHaltewunsch_2), (Fahre_3, GlobalerHaltewunsch), \\
+  (GlobalerHaltewunsch, Fahre_3), (Fahre_{3'} GlobalerHaltewunsch), \\
+  (GlobalerHaltewunsch, Fahre_{3'}), (Fahre_{3'}, Stock_3), \\
+  (Geschlossen_2, Fahre_{3'}), (Schliesse_2, Geschlossen_2), \\
+  (Offen_2, Schliesse_2), (Schliesse_2, KeinHaltewunsch_2), \\
+  ("Offne_2, Offen_2), (H"alt_2, "Offne_2), \\
+  (Anhalten_2, H"alt_2), (KeinHaltewunsch_2, Haltew"unschen_2), \\
+  (Haltew"unschen_2, Haltewunsch_2), (Haltew"unschen_2, GlobalerHaltewunsch), \\
+  (Haltewunsch_2, Anhalten_2), (GlobalerHaltewunsch, Anhalten_2), \\
+  (Stock_3, Anhalten_{2R}), (Stock_3, Fahre_{2R}), \\
+  (KeinHaltewunsch_{2R}, Haltew"unschen_{2R}), (KeinHaltewunsch_{2R}, Fahre_{2R}), \\
+  (Fahre_{2R}, KeinHaltewunsch_{2R}), (Schliesse_{2R}, KeinHaltewunsch_{2R}),\\
+  (Haltew"unschen_{2R}, GlobalerHaltewunsch), (Haltew"unschen_{2R}, Haltewunsch_{2R}), \\
+  (Haltewunsch_{2R}, Anhalten_{2R}), (Anhalten_{2R}, H"alt_{2R}), \\
+  (GlobalerHaltewunsch, Anhalten_{2R}), (H"alt_{2R}, "Offne_{2R}), \\
+  ("Offne_{2R}, Offen_{2R}), (Offen_{2R}, Schliesse_{2R}), \\
+  (Schliesse_{2R}, Geschlossen_{2R}), (Geschlossen_{2R}, Fahre_{2R'}), \\
+  (Fahre_{2R'}, GlobalerHaltewunsch), (GlobalerHaltewunsch, Fahre_{2R'}), \\
+  (Fahre_{2R'}, Stock_{2R}), (Fahre_{2R}, GlobalerHaltewunsch), \\
+  (GlobalerHaltewunsch, Fahre_{2R}), (Fahre_{2R}, Stock_{2R}), \\
+  (Stock_{2R}, Fahre_{1R}), (Stock_{2R}, Anhalten_{1R}), \\
+  (Haltewunsch_{1R}, Anhalten_{1R}), (Haltew"unschen_{1R}, Haltewunsch_{1R}), \\
+  (Haltew"unschen_{1R}, GlobalerHaltewunsch), (KeinHaltewunsch_{1R}, Haltew"unschen_{1R}), \\
+  ("Offne_{1R}, Offen_{1R}), (H"alt_{1R}, "Offne_{1R}), (Offen_{1R}, Schliesse_{1R}), \\
+  (Schliesse_{1R}, Geschlossen_{1R}), (Schliesse_{1R}, KeinHaltewunsch_{1R}), \\
+  (Anhalten_{1R}, H"alt_{1R}), (GlobalerHaltewunsch, Anhalten_{1R}), \\
+  (Geschlossen_{1R}, Fahre_{1R'}), (Fahre_{1R'}, GlobalerHaltewunsch), \\
+  (GlobalerHaltewunsch, Fahre_{1R'}), (KeinHaltewunsch_{1R}, Fahre_{1R}) \\
+  (Fahre_{1R}, KeinHaltewunsch_{1R}), (GlobalerHaltewunsch, Fahre_{1R}), \\
+  (Fahre_{1R}, GlobalerHaltewunsch)
+\}
+$
 
-$\forall (x, y) \in (P \times T) \cup (T \times P): W(x,y) = 1$
+$W(x,y) = 0$ sonst
 
 $K : P \rightarrow \mathds{N}_0$
 
@@ -97,7 +144,7 @@ $M_0 = (
 
   $K(Haltewunsch_{2R}) = 1 \geq 1 = 0 + 1 = M(Haltewunsch_{2R}) + \\ W(Haltew"unschen_{2R}, Haltewunsch_{2R})$
 
-  $K(Globalerhaltewunsch) = 3 \geq 1 = 0 + 1 = M(GlobalerHaltewunsch) + W(Haltew"unschen_{2R}, GlobalerHaltewunsch)$
+  $K(Globalerhaltewunsch) = 4 \geq 1 = 0 + 1 = M(GlobalerHaltewunsch) + W(Haltew"unschen_{2R}, GlobalerHaltewunsch)$
 
   $\implies Haltew"unschen_{2R}$ aktiviert
 \end{addmargin}
@@ -144,12 +191,11 @@ $M_0 \xrightarrow{Haltew"unschen_{2R}} M_1$
 \begin{addmargin}[1cm]{0cm}
   $Fahre_2 \bullet = \{ GlobalerHaltewunsch, Stock_2, KeinHaltewunsch_1 \}$
 
-  $K(GlobalerHaltewunsch) = 3 \geq M(GlobalerHaltewunsch) + W(Fahre_2, GlobalerHaltewunsch) = 1 + 1 = 2$ 
+  $K(GlobalerHaltewunsch) = 4 \geq M(GlobalerHaltewunsch) + \\ W(Fahre_2, GlobalerHaltewunsch) = 1 + 1 = 2$ 
 
   $K(Stock_2) = 1 \geq M(Stock_2) + W(Fahre_2, Stock_2) = 0 + 1 = 1$
 
-  % TODO laut folien gehört - W(KeinHaltewunsch_1, Fahre_2) nicht dazu und dann passt es nicht - im skript gucken
-  $K(KeinHaltewunsch_1) = 1 \geq M(KeinHaltewunsch_1) - W(KeinHaltewunsch_1, Fahre_2) + W(Fahre_2, KeinHaltewunsch_1) = 1 - 1 + 1$
+  $K(KeinHaltewunsch_1) = 1 \geq M(KeinHaltewunsch_1) - \\ W(KeinHaltewunsch_1, Fahre_2) + \\ W(Fahre_2, KeinHaltewunsch_1) = 1 - 1 + 1$
 
   $\implies Fahre_2$ aktiviert
 \end{addmargin}
@@ -163,7 +209,7 @@ $M_1 \xrightarrow{Fahre_2} M_2$
 
   $M_2(GlobalerHaltewunsch) = M_1(GlobalerHaltewunsch) - \\ W(GlobalerHaltewunsch, Fahre_2) + \\ W(Fahre_2, GlobalerHaltewunsch) = 1 - 1 + 1 = 1$
 
-  $M_2(Stock_2) = M_1(Stock_2) - W(Stock_2, Fahre_2) + W(Fahre_2, Stock_2) = 0 - 0 + 1 = 1$
+  $M_2(Stock_2) = M_1(Stock_2) - W(Stock_2, Fahre_2) + \\ W(Fahre_2, Stock_2) = 0 - 0 + 1 = 1$
 
   $M_2(KeinHaltewunsch_1) = M_1(KeinHaltewunsch_1) - \\ W(KeinHaltewunsch_1, Fahre_2) + \\ W(Fahre_2, KeinHaltewunsch_1) = 1 - 1 + 1 = 1$
 
@@ -193,16 +239,15 @@ $M_1 \xrightarrow{Fahre_2} M_2$
   $M(Stock_3) = 1 \geq W(Stock_2, Fahre_3) = 1$
 \end{addmargin}
 
-\textbf{Nachbereich von $Fahre_2$}
+\textbf{Nachbereich von $Fahre_3$}
 
 \begin{addmargin}[1cm]{0cm}
   $Fahre_3 \bullet = \{ GlobalerHaltewunsch, Stock_3, KeinHaltewunsch_2 \}$
 
-  $K(GlobalerHaltewunsch) = 3 \geq M(GlobalerHaltewunsch) + W(Fahre_3, GlobalerHaltewunsch) = 1 + 1 = 2$ 
+  $K(GlobalerHaltewunsch) = 4 \geq M(GlobalerHaltewunsch) + \\ W(Fahre_3, GlobalerHaltewunsch) = 1 + 1 = 2$ 
 
   $K(Stock_3) = 1 \geq M(Stock_3) + W(Fahre_3, Stock_3) = 0 + 1 = 1$
 
-  % TODO laut folien gehört - W(KeinHaltewunsch_1, Fahre_2) nicht dazu und dann passt es nicht - im skript gucken
   $K(KeinHaltewunsch_2) = 1 \geq M(KeinHaltewunsch_2) - \\ W(KeinHaltewunsch_2, Fahre_3) + \\ W(Fahre_3, KeinHaltewunsch_2) = 1 - 1 + 1$
 
   $\implies Fahre_3$ aktiviert
@@ -279,6 +324,10 @@ $M_3 \xrightarrow{Anhalten_{2R}} M_4$
 \end{addmargin}
 
 Der Aufzug ist nun auf dem 3. Stock und hat angehalten.
+
+\item Gebt den Erreichbarkeitsgraphen grafisch zu einer gegebenen Anfangsmarkierung an.
+
+\includegraphics[width=1\textwidth]{eg.pdf}
 
 \end{enumerate}
 
