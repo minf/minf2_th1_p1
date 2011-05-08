@@ -21,7 +21,7 @@
 
 \item Modelliert nun einen Fahrstuhl mit einer einfachen Steuerung. Der Fahrstuhl fährt nur, wenn eine Anforderung vorliegt. Falls eine Anforderung für das Stockwerk, in dem sich der Fahrstuhl gerade befindet, vorliegt, werden die Türen geöffnet und anschließend geschlossen. Es wird immer nur eine Anforderung bearbeitet, d.h. Anforderungen werden nicht angenommen, wenn der Fahrstuhl gerade arbeitet.
 
-\includegraphics[width=1\textwidth]{graph.png}
+\includegraphics[width=1\textwidth]{prak_aufg3_fertig.pdf}
 
 \item Gebt das Netz formal in klassischer Darstellung an.
 
@@ -33,7 +33,7 @@ $P_2 = \bigcup_{i \in \{ 1, 2, 2R, 1R \}} \{ Haltewunsch_i, KeinHaltewunsch_i, H
 
 $P = P_1 \cup P_2$
 
-Es gilt:
+Es gelte:
 
 $
 1Stock < 2Stock < 3Stock < 2StockR < GlobalerHaltewunsch 
@@ -57,13 +57,29 @@ K(p) =
     3, & \text{falls $p \in \{ GlobalerHaltewunsch \}$} \\ 
     1, & \text{sonst} \end{cases}$
 
-$
-M_0 = (1, 0, 0, 0, 0, 
-0, 1, 0, 0, 0,
-0, 1, 0, 0, 0,
-0, 1, 0, 0, 0,
-0, 1, 0, 0, 0)
-$
+$M_0 = (1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)$
+
+\item Berechnet formal die Schaltfolge zu einer gegebenen Anfangsmarkierung, die eine Fahrt vom ersten in den dritten Stock beschreibt.
+
+Anfangsmarkierung: $M_0 = (1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)$
+
+Vorbereich von $Haltew"unschen_2R$:
+
+$\bullet Haltew"unschen_{2R} = \{ KeinHaltewunsch_{2R} \}$
+
+$Haltew"unschen_{2R}$ aktiviert, da
+
+$M(KeinHaltewunsch_{2R}) = 1 \geq W(KeinHaltewunsch_{2R}, Haltew"unschen_{2R})$
+
+Nachbereich von $Haltew"unschen_2R$:
+
+$Haltew"unschen_{2R} \bullet = \{ Haltewunsch_{2R}, GlobalerHaltewunsch \}$
+
+$K(Haltewunsch_{2R}) = 1 \geq 1 = 0 + 1 = M(Haltewunsch_{2R}) + W(Haltew"unschen_{2R}, Haltewunsch_{2R})$
+
+$K(Globalerhaltewunsch) = 3 \geq 1 = 0 + 1 = M(GlobalerHaltewunsch) + W(Haltew"unschen_{2R}, GlobalerHaltewunsch)$
+
+$\implies Haltew"unschen_{2R} aktiviert$
 
 \end{enumerate}
 

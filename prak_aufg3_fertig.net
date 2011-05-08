@@ -6,8 +6,8 @@
     </name>
     <place id = "p1">
       <graphics>
-        <position x = "1120"
-                  y = "720"/>
+        <position x = "600"
+                  y = "640"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -27,8 +27,8 @@
     </place>
     <place id = "p2">
       <graphics>
-        <position x = "860"
-                  y = "460"/>
+        <position x = "340"
+                  y = "380"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -48,8 +48,8 @@
     </place>
     <place id = "p3">
       <graphics>
-        <position x = "1120"
-                  y = "180"/>
+        <position x = "600"
+                  y = "100"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -69,8 +69,8 @@
     </place>
     <place id = "p4">
       <graphics>
-        <position x = "1300"
-                  y = "460"/>
+        <position x = "780"
+                  y = "380"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -90,8 +90,8 @@
     </place>
     <place id = "p5">
       <graphics>
-        <position x = "640"
-                  y = "279"/>
+        <position x = "120"
+                  y = "199"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -111,8 +111,8 @@
     </place>
     <place id = "p6">
       <graphics>
-        <position x = "560"
-                  y = "336"/>
+        <position x = "40"
+                  y = "256"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -132,8 +132,8 @@
     </place>
     <place id = "p7">
       <graphics>
-        <position x = "661"
-                  y = "196"/>
+        <position x = "101"
+                  y = "116"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -153,8 +153,8 @@
     </place>
     <place id = "p8">
       <graphics>
-        <position x = "780"
-                  y = "195"/>
+        <position x = "280"
+                  y = "115"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -174,8 +174,8 @@
     </place>
     <place id = "p9">
       <graphics>
-        <position x = "720"
-                  y = "336"/>
+        <position x = "200"
+                  y = "256"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -195,8 +195,8 @@
     </place>
     <place id = "p10">
       <graphics>
-        <position x = "1120"
-                  y = "461"/>
+        <position x = "600"
+                  y = "381"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -216,8 +216,8 @@
     </place>
     <place id = "p11">
       <graphics>
-        <position x = "1548"
-                  y = "279"/>
+        <position x = "1028"
+                  y = "199"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -237,8 +237,8 @@
     </place>
     <place id = "p12">
       <graphics>
-        <position x = "1628"
-                  y = "336"/>
+        <position x = "1108"
+                  y = "256"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -258,8 +258,8 @@
     </place>
     <place id = "p13">
       <graphics>
-        <position x = "1527"
-                  y = "196"/>
+        <position x = "1087"
+                  y = "116"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -279,8 +279,8 @@
     </place>
     <place id = "p14">
       <graphics>
-        <position x = "1408"
-                  y = "195"/>
+        <position x = "888"
+                  y = "115"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -300,8 +300,8 @@
     </place>
     <place id = "p15">
       <graphics>
-        <position x = "1468"
-                  y = "336"/>
+        <position x = "948"
+                  y = "256"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -321,8 +321,8 @@
     </place>
     <place id = "p16">
       <graphics>
-        <position x = "1568"
-                  y = "647"/>
+        <position x = "1048"
+                  y = "567"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -342,8 +342,8 @@
     </place>
     <place id = "p17">
       <graphics>
-        <position x = "1648"
-                  y = "590"/>
+        <position x = "1128"
+                  y = "510"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -363,8 +363,8 @@
     </place>
     <place id = "p18">
       <graphics>
-        <position x = "1547"
-                  y = "730"/>
+        <position x = "1127"
+                  y = "650"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -384,8 +384,8 @@
     </place>
     <place id = "p19">
       <graphics>
-        <position x = "1428"
-                  y = "731"/>
+        <position x = "908"
+                  y = "651"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -405,8 +405,8 @@
     </place>
     <place id = "p20">
       <graphics>
-        <position x = "1488"
-                  y = "590"/>
+        <position x = "968"
+                  y = "510"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -426,8 +426,8 @@
     </place>
     <place id = "p21">
       <graphics>
-        <position x = "658"
-                  y = "667"/>
+        <position x = "138"
+                  y = "587"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -447,8 +447,8 @@
     </place>
     <place id = "p22">
       <graphics>
-        <position x = "578"
-                  y = "610"/>
+        <position x = "58"
+                  y = "530"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -468,8 +468,8 @@
     </place>
     <place id = "p23">
       <graphics>
-        <position x = "679"
-                  y = "750"/>
+        <position x = "99"
+                  y = "670"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -489,8 +489,8 @@
     </place>
     <place id = "p24">
       <graphics>
-        <position x = "798"
-                  y = "751"/>
+        <position x = "278"
+                  y = "671"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -510,8 +510,8 @@
     </place>
     <place id = "p25">
       <graphics>
-        <position x = "738"
-                  y = "610"/>
+        <position x = "218"
+                  y = "530"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -531,8 +531,8 @@
     </place>
     <transition id = "t1">
       <graphics>
-        <position x = "880"
-                  y = "620"/>
+        <position x = "360"
+                  y = "540"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -546,8 +546,8 @@
     </transition>
     <transition id = "t2">
       <graphics>
-        <position x = "880"
-                  y = "340"/>
+        <position x = "360"
+                  y = "260"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -561,8 +561,8 @@
     </transition>
     <transition id = "t3">
       <graphics>
-        <position x = "1300"
-                  y = "340"/>
+        <position x = "780"
+                  y = "260"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -576,8 +576,8 @@
     </transition>
     <transition id = "t4">
       <graphics>
-        <position x = "1300"
-                  y = "580"/>
+        <position x = "780"
+                  y = "500"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -591,8 +591,8 @@
     </transition>
     <transition id = "t5">
       <graphics>
-        <position x = "720"
-                  y = "278"/>
+        <position x = "200"
+                  y = "198"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -606,8 +606,8 @@
     </transition>
     <transition id = "t6">
       <graphics>
-        <position x = "560"
-                  y = "276"/>
+        <position x = "40"
+                  y = "196"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -621,8 +621,8 @@
     </transition>
     <transition id = "t7">
       <graphics>
-        <position x = "640"
-                  y = "336"/>
+        <position x = "120"
+                  y = "256"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -636,8 +636,8 @@
     </transition>
     <transition id = "t8">
       <graphics>
-        <position x = "720"
-                  y = "196"/>
+        <position x = "180"
+                  y = "116"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -651,8 +651,8 @@
     </transition>
     <transition id = "t9">
       <graphics>
-        <position x = "780"
-                  y = "335"/>
+        <position x = "260"
+                  y = "255"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -666,8 +666,8 @@
     </transition>
     <transition id = "t10">
       <graphics>
-        <position x = "1468"
-                  y = "278"/>
+        <position x = "948"
+                  y = "198"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -681,8 +681,8 @@
     </transition>
     <transition id = "t11">
       <graphics>
-        <position x = "1628"
-                  y = "276"/>
+        <position x = "1108"
+                  y = "196"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -696,8 +696,8 @@
     </transition>
     <transition id = "t12">
       <graphics>
-        <position x = "1548"
-                  y = "336"/>
+        <position x = "1028"
+                  y = "256"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -711,8 +711,8 @@
     </transition>
     <transition id = "t13">
       <graphics>
-        <position x = "1468"
-                  y = "196"/>
+        <position x = "988"
+                  y = "116"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -726,8 +726,8 @@
     </transition>
     <transition id = "t14">
       <graphics>
-        <position x = "1408"
-                  y = "335"/>
+        <position x = "888"
+                  y = "255"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -741,8 +741,8 @@
     </transition>
     <transition id = "t15">
       <graphics>
-        <position x = "1488"
-                  y = "648"/>
+        <position x = "968"
+                  y = "568"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -756,8 +756,8 @@
     </transition>
     <transition id = "t16">
       <graphics>
-        <position x = "1648"
-                  y = "650"/>
+        <position x = "1128"
+                  y = "570"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -771,8 +771,8 @@
     </transition>
     <transition id = "t17">
       <graphics>
-        <position x = "1568"
-                  y = "590"/>
+        <position x = "1048"
+                  y = "510"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -786,8 +786,8 @@
     </transition>
     <transition id = "t18">
       <graphics>
-        <position x = "1488"
-                  y = "730"/>
+        <position x = "1008"
+                  y = "650"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -801,8 +801,8 @@
     </transition>
     <transition id = "t19">
       <graphics>
-        <position x = "1428"
-                  y = "591"/>
+        <position x = "908"
+                  y = "511"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -816,8 +816,8 @@
     </transition>
     <transition id = "t20">
       <graphics>
-        <position x = "738"
-                  y = "668"/>
+        <position x = "218"
+                  y = "588"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -831,8 +831,8 @@
     </transition>
     <transition id = "t21">
       <graphics>
-        <position x = "578"
-                  y = "670"/>
+        <position x = "58"
+                  y = "590"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -846,8 +846,8 @@
     </transition>
     <transition id = "t22">
       <graphics>
-        <position x = "658"
-                  y = "610"/>
+        <position x = "138"
+                  y = "530"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -861,8 +861,8 @@
     </transition>
     <transition id = "t23">
       <graphics>
-        <position x = "738"
-                  y = "750"/>
+        <position x = "198"
+                  y = "670"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -876,8 +876,8 @@
     </transition>
     <transition id = "t24">
       <graphics>
-        <position x = "798"
-                  y = "611"/>
+        <position x = "278"
+                  y = "531"/>
         <dimension x = "40"
                    y = "40"/>
       </graphics>
@@ -950,8 +950,8 @@
          source = "p10"
          target = "t2">
       <graphics>
-        <position x = "1120"
-                  y = "340"/>
+        <position x = "600"
+                  y = "260"/>
       </graphics>
     </arc>
     <arc id = "a21"
@@ -994,10 +994,10 @@
          source = "t13"
          target = "p10">
       <graphics>
-        <position x = "1460"
-                  y = "100"/>
-        <position x = "1320"
-                  y = "100"/>
+        <position x = "940"
+                  y = "20"/>
+        <position x = "800"
+                  y = "20"/>
       </graphics>
     </arc>
     <arc id = "a34"
@@ -1007,22 +1007,22 @@
          source = "p10"
          target = "t10">
       <graphics>
-        <position x = "1200"
-                  y = "440"/>
-        <position x = "1200"
-                  y = "340"/>
-        <position x = "1300"
+        <position x = "680"
+                  y = "360"/>
+        <position x = "680"
                   y = "260"/>
+        <position x = "780"
+                  y = "180"/>
       </graphics>
     </arc>
     <arc id = "a36"
          source = "t3"
          target = "p10">
       <graphics>
-        <position x = "1240"
-                  y = "340"/>
-        <position x = "1240"
-                  y = "340"/>
+        <position x = "720"
+                  y = "260"/>
+        <position x = "720"
+                  y = "260"/>
       </graphics>
     </arc>
     <arc id = "a37"
@@ -1068,16 +1068,16 @@
          source = "t4"
          target = "p10">
       <graphics>
-        <position x = "1180"
-                  y = "580"/>
+        <position x = "660"
+                  y = "500"/>
       </graphics>
     </arc>
     <arc id = "a51"
          source = "p10"
          target = "t15">
       <graphics>
-        <position x = "1180"
-                  y = "680"/>
+        <position x = "660"
+                  y = "600"/>
       </graphics>
     </arc>
     <arc id = "a52"
@@ -1087,12 +1087,12 @@
          source = "t18"
          target = "p10">
       <graphics>
-        <position x = "1480"
-                  y = "800"/>
-        <position x = "1260"
-                  y = "800"/>
-        <position x = "1220"
-                  y = "500"/>
+        <position x = "960"
+                  y = "720"/>
+        <position x = "740"
+                  y = "720"/>
+        <position x = "700"
+                  y = "420"/>
       </graphics>
     </arc>
     <arc id = "a54"
@@ -1102,10 +1102,10 @@
          source = "p4"
          target = "t15">
       <graphics>
-        <position x = "1360"
-                  y = "460"/>
-        <position x = "1380"
-                  y = "640"/>
+        <position x = "840"
+                  y = "380"/>
+        <position x = "860"
+                  y = "560"/>
       </graphics>
     </arc>
     <arc id = "a56"
@@ -1145,10 +1145,10 @@
          source = "t23"
          target = "p10">
       <graphics>
-        <position x = "740"
-                  y = "820"/>
-        <position x = "960"
-                  y = "820"/>
+        <position x = "220"
+                  y = "740"/>
+        <position x = "440"
+                  y = "740"/>
       </graphics>
     </arc>
     <arc id = "a68"
@@ -1158,10 +1158,10 @@
          source = "t1"
          target = "p10">
       <graphics>
-        <position x = "900"
-                  y = "560"/>
-        <position x = "940"
+        <position x = "380"
                   y = "480"/>
+        <position x = "420"
+                  y = "400"/>
       </graphics>
     </arc>
     <arc id = "a70"
@@ -1174,32 +1174,32 @@
          source = "p10"
          target = "t20">
       <graphics>
-        <position x = "920"
-                  y = "740"/>
+        <position x = "400"
+                  y = "660"/>
       </graphics>
     </arc>
     <arc id = "a73"
          source = "t1"
          target = "p24">
       <graphics>
-        <position x = "880"
-                  y = "760"/>
+        <position x = "360"
+                  y = "680"/>
       </graphics>
     </arc>
     <arc id = "a74"
          source = "t4"
          target = "p19">
       <graphics>
-        <position x = "1300"
-                  y = "740"/>
+        <position x = "780"
+                  y = "660"/>
       </graphics>
     </arc>
     <arc id = "a75"
          source = "t3"
          target = "p14">
       <graphics>
-        <position x = "1300"
-                  y = "200"/>
+        <position x = "780"
+                  y = "120"/>
       </graphics>
     </arc>
     <arc id = "a76"
@@ -1209,34 +1209,34 @@
          source = "t2"
          target = "p8">
       <graphics>
-        <position x = "880"
-                  y = "180"/>
+        <position x = "360"
+                  y = "100"/>
       </graphics>
     </arc>
     <arc id = "a78"
          source = "t8"
          target = "p10">
       <graphics>
-        <position x = "720"
-                  y = "120"/>
-        <position x = "940"
-                  y = "120"/>
+        <position x = "200"
+                  y = "40"/>
+        <position x = "420"
+                  y = "40"/>
       </graphics>
     </arc>
     <arc id = "a79"
          source = "p10"
          target = "t5">
       <graphics>
-        <position x = "920"
-                  y = "220"/>
+        <position x = "400"
+                  y = "140"/>
       </graphics>
     </arc>
     <arc id = "a80"
          source = "p2"
          target = "t5">
       <graphics>
-        <position x = "820"
-                  y = "280"/>
+        <position x = "300"
+                  y = "200"/>
       </graphics>
     </arc>
     <toolspecific tool = "netlab"
@@ -1247,6 +1247,36 @@
                          year = "2007"
                          month = "06"
                          day = "22"/>
+      <comments>
+        <comment id = "c1">
+          <graphics>
+            <position x = "1100"
+                      y = "60"/>
+          </graphics>
+          <text>3. Stock</text>
+        </comment>
+        <comment id = "c2">
+          <graphics>
+            <position x = "40"
+                      y = "60"/>
+          </graphics>
+          <text>2. Stock</text>
+        </comment>
+        <comment id = "c3">
+          <graphics>
+            <position x = "1100"
+                      y = "720"/>
+          </graphics>
+          <text>2. Stock Abw&#228;rts</text>
+        </comment>
+        <comment id = "c4">
+          <graphics>
+            <position x = "40"
+                      y = "720"/>
+          </graphics>
+          <text>1. Stock</text>
+        </comment>
+      </comments>
       <view xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
             zoom = "75"
             grid = "true"
@@ -1254,8 +1284,8 @@
             names = "false"
             description = "true"
             colored_invariants = "true">
-        <scrollerposition x = "69"
-                          y = "113"/>
+        <scrollerposition x = "0"
+                          y = "17"/>
       </view>
       <calculation xmlns = "http://www.irt.rwth-aachen.de/download/netlab"
                    autocalculate_invariants = "false"
