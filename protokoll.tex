@@ -355,6 +355,25 @@ M_0' = (
 )
 $
 
+\item Gebt im Netzkomplement jeweils zwei Transitionen $t1 \neq t2 \in T$ bzgl einer Markierung
+an,
+\begin{enumerate}
+\item die im Konflikt sind\\
+
+$M = M_0'\\
+\bullet Haltewuenschen1 \cap \bullet Haltewuenschen2 = \lbrace \overline{GlobalerHaltewunsch} \rbrace \neq \emptyset\\
+\Rightarrow \mbox{Vorwaertskonflikt von Haltewuenschen1 und Haltewuenschen2}
+$
+
+\item die nebenlaufig sind\\
+$M= M_0'\\
+(\bullet Haltewuenschen1 \cup Haltewuenschen1 \bullet ) \cap (\bullet Haltewuenschen2 \cup Haltewuenschen2 \bullet )\\
+= \lbrace GlobalerHaltewunsch, \overline{GlobalerHaltewunsch} \rbrace \neq \emptyset\\
+\Rightarrow \mbox{Nebenlaufigkeit von Haltewuenschen1 und Haltewuenschen2}
+$
+\end{enumerate}
+und weist dies formal nach.
+
 \end{enumerate}
 
 \end{document}
