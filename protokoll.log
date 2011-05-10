@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  9 MAY 2011 12:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  10 MAY 2011 08:41
 entering extended mode
  %&-line parsing enabled.
 **protokoll
@@ -565,22 +565,22 @@ Overfull \hbox (27.37506pt too wide) in paragraph at lines 330--331
 File: prak_aufg3_fertig_bugfix_komplement.pdf Graphic file (type pdf)
 
 <use prak_aufg3_fertig_bugfix_komplement.pdf>
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 335--336
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 336--337
 [][] 
  []
 
 
-Overfull \hbox (24.3092pt too wide) in paragraph at lines 337--357
+Overfull \hbox (24.3092pt too wide) in paragraph at lines 338--358
 []\OML/cmm/m/it/10.95 ; []; []; []; []; []; [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 
  []
 
 [9 <./prak_aufg3_fertig_bugfix_komplement.pdf, page is rotated 90 degrees>]
-Overfull \hbox (44.90506pt too wide) in paragraph at lines 368--374
+Overfull \hbox (44.90506pt too wide) in paragraph at lines 369--375
 \OT1/cmr/m/n/10.95 (\OMS/cmsy/m/n/10.95 ^^O\OML/cmm/m/it/10.95 Haltewuenschen\O
 T1/cmr/m/n/10.95 1 \OMS/cmsy/m/n/10.95 [ \OML/cmm/m/it/10.95 Haltewuenschen\OT1
 /cmr/m/n/10.95 1\OMS/cmsy/m/n/10.95 ^^O\OT1/cmr/m/n/10.95 ) \OMS/cmsy/m/n/10.95
@@ -611,7 +611,7 @@ exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/dou
 blestroke/dsrom10.pfb>
-Output written on protokoll.pdf (10 pages, 223003 bytes).
+Output written on protokoll.pdf (10 pages, 222905 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
