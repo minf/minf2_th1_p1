@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2011.4.20)  10 MAY 2011 14:41
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  10 MAY 2011 14:49
+>>>>>>> bugfix for EG
 entering extended mode
  %&-line parsing enabled.
 **protokoll.tex
@@ -570,6 +574,7 @@ pdfTeX warning: pdflatex (file ./prozess.pdf): PDF inclusion: Page Group detect
 ed which pdfTeX can't handle. Ignoring it.
 >] (./protokoll.aux) ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  2424 strings out of 256216
  29612 string characters out of 1917072
  108883 words of memory out of 1500000
@@ -588,6 +593,29 @@ mr8.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmssbx10.pfb></usr/share/texmf
 y6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf/fon
 ts/type1/public/doublestroke/dsrom10.pfb>
 Output written on protokoll.pdf (10 pages, 157622 bytes).
+=======
+ 3109 strings out of 493848
+ 41642 string characters out of 1152823
+ 136519 words of memory out of 3000000
+ 6356 multiletter control sequences out of 15000+50000
+ 10229 words of font info for 40 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 35i,13n,35p,428b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pf
+b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/dou
+blestroke/dsrom10.pfb>
+Output written on protokoll.pdf (10 pages, 223226 bytes).
+>>>>>>> bugfix for EG
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
