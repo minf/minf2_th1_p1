@@ -7,340 +7,277 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.2"
    width="210mm"
    height="297mm"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="prozess.svg">
+   id="svg2">
   <defs
      id="defs4">
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="Arrow2Mend"
-       style="overflow:visible;">
-      <path
-         id="path3904"
-         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(0.6) rotate(180) translate(0,0)" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Lend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="Arrow2Lend"
-       style="overflow:visible;">
-      <path
-         id="path3898"
-         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
-         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
-         transform="scale(1.1) rotate(180) translate(1,0)" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0.0"
-       refX="0.0"
-       id="Arrow1Mend"
-       style="overflow:visible;">
-      <path
-         id="path3886"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
-         transform="scale(0.4) rotate(180) translate(10,0)" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path3904"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         id="path3898"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         id="path3886"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-6"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-8"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-8"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-2"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-1"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-1"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-64"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-12"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-12"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-8"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-9"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-9"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-88"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-86"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-86"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-3"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-2"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-2"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-5"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-87"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-87"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-60"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-4"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-4"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-1"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-7"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-7"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="marker5218"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path5220"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path5220"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="marker5222"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path5224"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path5224"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-7"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-82"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-82"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="marker5353"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path5355"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path5355"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="marker5357"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path5359"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path5359"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-0"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-13"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-13"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="marker5645"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path5647"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path5647"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="Arrow2Mend-51"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path3904-0"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path3904-0"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="marker5685"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path5687"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path5687"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
     <marker
-       inkscape:stockid="Arrow2Mend"
-       orient="auto"
-       refY="0"
        refX="0"
+       refY="0"
+       orient="auto"
        id="marker5689"
        style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         id="path5691"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
          d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
-         transform="scale(-0.6,-0.6)" />
+         transform="scale(-0.6,-0.6)"
+         id="path5691"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
     </marker>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="244.9098"
-     inkscape:cy="606.41194"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1062"
-     inkscape:window-x="1280"
-     inkscape:window-y="-3"
-     inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -354,598 +291,385 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Ebene 1"
-     inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g4733"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(52,0)"
+       id="g4733">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9"
-         y="24.281332"
          x="402.83832"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785"
-           y="24.281332"
+         y="24.281332"
+         id="text3755-9"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="402.83832"
-           sodipodi:role="line">KeinHaltewunsch2R</tspan></text>
+           y="24.281332"
+           id="tspan3785">KeinHaltewunsch2R</tspan></text>
       <path
-         transform="translate(214.81766,-399.13989)"
          d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
+         transform="translate(214.81766,-399.13989)"
          id="path3783"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <flowRoot
-       xml:space="preserve"
+       transform="translate(52,0)"
        id="flowRoot3816"
-       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:16px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><flowRegion
          id="flowRegion3818"><rect
-           id="rect3820"
            width="217.14285"
            height="261.42856"
            x="280"
-           y="208.07646" /></flowRegion><flowPara
-         id="flowPara3822"></flowPara></flowRoot>    <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 403.36987,102.36218 0,71.42858"
+           y="208.07646"
+           id="rect3820" /></flowRegion><flowPara
+         id="flowPara3822" /></flowRoot>    <path
+       d="m 455.36987,102.36218 0,71.42858"
        id="path3872"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <g
-       id="g4871"
-       transform="translate(0,-2.8571429)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(52,-2.8571429)"
+       id="g4871">
       <rect
-         y="180.93361"
-         x="323.38907"
-         height="40"
          width="160"
+         height="40"
+         x="323.38907"
+         y="180.93361"
          id="rect4692"
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <text
-         sodipodi:linespacing="125%"
-         id="text4694"
-         y="206.89845"
          x="330.61957"
-         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           y="206.89845"
+         y="206.89845"
+         id="text4694"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="330.61957"
-           id="tspan4696"
-           sodipodi:role="line">Haltewünschen2R</tspan></text>
+           y="206.89845"
+           id="tspan4696">Haltewünschen2R</tspan></text>
     </g>
     <g
-       id="g4738"
-       transform="translate(110.39151,-107.96429)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(162.39151,-107.96429)"
+       id="g4738">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-7"
-         y="404.89841"
          x="223.73494"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-7"
-           y="404.89841"
+         y="404.89841"
+         id="text3755-9-7"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="223.73494"
-           sodipodi:role="line">GlobalerHaltewunsch</tspan></text>
+           y="404.89841"
+           id="tspan3785-7">GlobalerHaltewunsch</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(35.714271,-18.522823)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-5"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       id="g4743"
-       transform="translate(50.690419,-126.53571)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(102.69042,-126.53571)"
+       id="g4743">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-4"
-         y="423.46982"
          x="442.30637"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-8"
-           y="423.46982"
+         y="423.46982"
+         id="text3755-9-4"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="442.30637"
-           sodipodi:role="line">Haltewunsch2R</tspan></text>
+           y="423.46982"
+           id="tspan3785-8">Haltewunsch2R</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(254.2857,0.04860545)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-1"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 396.39458,227.94043 -50.50764,50.50763"
+       d="m 448.39458,227.94043 -50.50764,50.50763"
        id="path3872-0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 413.57825,226.53903 50.50763,50.50764"
+       d="m 465.57825,226.53903 50.50763,50.50764"
        id="path3872-05"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <g
-       id="g4837"
-       transform="translate(88.713714,-12.250002)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(140.71371,-12.250002)"
+       id="g4837">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-8-2"
-         y="309.18411"
          x="109.44922"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-9-8"
-           y="309.18411"
+         y="309.18411"
+         id="text3755-9-8-2"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="109.44922"
-           sodipodi:role="line">Stock1</tspan></text>
+           y="309.18411"
+           id="tspan3785-9-8">Stock1</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(-78.571444,-114.2371)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-3-2"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       id="g4853"
-       transform="translate(104.57158,-19.392854)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(156.57158,-19.392854)"
+       id="g4853">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-8-9"
-         y="316.32697"
          x="-29.12221"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-9-1"
-           y="316.32697"
+         y="316.32697"
+         id="text3755-9-8-9"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="-29.12221"
-           sodipodi:role="line">KeinHaltewunsch1</tspan></text>
+           y="316.32697"
+           id="tspan3785-9-1">KeinHaltewunsch1</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(-217.14287,-107.09425)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-3-4"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       id="g4898"
-       transform="translate(-14.285714,-5.1428571)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(37.714286,-5.1428571)"
+       id="g4898">
       <rect
-         y="452.36218"
-         x="135.71428"
-         height="40"
          width="160"
+         height="40"
+         x="135.71428"
+         y="452.36218"
          id="rect4692-9"
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <text
-         sodipodi:linespacing="125%"
-         id="text4694-4"
-         y="478.32703"
          x="188.73381"
-         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           y="478.32703"
+         y="478.32703"
+         id="text4694-4"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="188.73381"
-           id="tspan4696-3"
-           sodipodi:role="line">Fahre2</tspan></text>
+           y="478.32703"
+           id="tspan4696-3">Fahre2</tspan></text>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 314.25493,379.80796 -50.50764,50.50763"
+       d="m 366.25493,379.80796 -50.50764,50.50763"
        id="path3872-0-8"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 97.160061,376.9644 50.507629,50.50764"
+       d="m 149.16006,376.9644 50.50763,50.50764"
        id="path3872-05-2"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 195.69507,373.25209 0,71.42858"
+       d="m 247.69507,373.25209 0,71.42858"
        id="path3872-8"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <g
-       id="g5005"
-       transform="translate(-0.58435263,-10.714256)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(51.415647,-10.714256)"
+       id="g5005">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-8-2-4"
-         y="584.89838"
          x="195.16353"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-9-8-7"
-           y="584.89838"
+         y="584.89838"
+         id="text3755-9-8-2-4"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="195.16353"
-           sodipodi:role="line">Stock2</tspan></text>
+           y="584.89838"
+           id="tspan3785-9-8-7">Stock2</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(7.142859,161.47718)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-3-2-6"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       id="g4738-6"
-       transform="translate(102.50772,169.28573)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(154.50772,169.28573)"
+       id="g4738-6">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-7-8"
-         y="404.89841"
          x="223.73494"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-7-7"
-           y="404.89841"
+         y="404.89841"
+         id="text3755-9-7-8"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="223.73494"
-           sodipodi:role="line">GlobalerHaltewunsch</tspan></text>
+           y="404.89841"
+           id="tspan3785-7-7">GlobalerHaltewunsch</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(35.714271,-18.522823)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-5-9"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       id="g4853-0"
-       transform="translate(105.28786,257.85716)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(157.28786,257.85716)"
+       id="g4853-0">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-8-9-3"
-         y="316.32697"
          x="-29.12221"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-9-1-3"
-           y="316.32697"
+         y="316.32697"
+         id="text3755-9-8-9-3"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="-29.12221"
-           sodipodi:role="line">KeinHaltewunsch1</tspan></text>
+           y="316.32697"
+           id="tspan3785-9-1-3">KeinHaltewunsch1</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(-217.14287,-107.09425)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-3-4-3"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="M 167.11208,500.09367 116.60444,550.6013"
+       d="M 219.11208,500.09367 168.60444,550.6013"
        id="path3872-0-8-6"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 195.69507,489.25209 0,71.42858"
+       d="m 247.69507,489.25209 0,71.42858"
        id="path3872-8-9"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 240.0172,498.67869 50.50763,50.50764"
+       d="m 292.0172,498.67869 50.50763,50.50764"
        id="path3872-05-2-1"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <g
-       id="g5166"
-       transform="translate(-14.771289,10.714293)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(37.228711,10.714293)"
+       id="g5166">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-8-9-3-8"
-         y="563.46985"
          x="507.09988"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-9-1-3-7"
-           y="563.46985"
+         y="563.46985"
+         id="text3755-9-8-9-3-8"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="507.09988"
-           sodipodi:role="line">KeinHaltewunsch2</tspan></text>
+           y="563.46985"
+           id="tspan3785-9-1-3-7">KeinHaltewunsch2</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(319.07923,140.04861)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-3-4-3-0"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       id="g5201"
-       transform="translate(-7.1428572,-14.285714)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(44.857143,-14.285714)"
+       id="g5201">
       <rect
-         y="738.07648"
-         x="260"
-         height="40"
          width="160"
+         height="40"
+         x="260"
+         y="738.07648"
          id="rect4692-9-3"
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <text
-         sodipodi:linespacing="125%"
-         id="text4694-4-9"
-         y="764.04132"
          x="313.01953"
-         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           y="764.04132"
+         y="764.04132"
+         id="text4694-4-9"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="313.01953"
-           id="tspan4696-3-2"
-           sodipodi:role="line">Fahre3</tspan></text>
+           y="764.04132"
+           id="tspan4696-3-2">Fahre3</tspan></text>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 450.54743,657.52225 -50.50764,50.50763"
+       d="m 502.54743,657.52225 -50.50764,50.50763"
        id="path3872-0-8-8"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 233.45256,660.39297 50.50763,50.50764"
+       d="m 285.45256,660.39297 50.50763,50.50764"
        id="path3872-05-2-9"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 325.70186,649.25209 0,71.42858"
+       d="m 377.70186,649.25209 0,71.42858"
        id="path3872-8-1"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <g
-       id="g5336"
-       transform="translate(260.87515,3.7142827)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(312.87515,3.7142827)"
+       id="g5336">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-8-2-49"
-         y="843.46985"
          x="200.87781"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-9-8-2"
-           y="843.46985"
+         y="843.46985"
+         id="text3755-9-8-2-49"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="200.87781"
-           sodipodi:role="line">Stock3</tspan></text>
+           y="843.46985"
+           id="tspan3785-9-8-2">Stock3</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(12.857145,420.04861)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-3-2-5"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       id="g5166-7"
-       transform="translate(-341.95576,283.71428)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(-289.95576,283.71428)"
+       id="g5166-7">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-8-9-3-8-4"
-         y="563.46985"
          x="507.09988"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-9-1-3-7-9"
-           y="563.46985"
+         y="563.46985"
+         id="text3755-9-8-9-3-8-4"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="507.09988"
-           sodipodi:role="line">KeinHaltewunsch2</tspan></text>
+           y="563.46985"
+           id="tspan3785-9-1-3-7-9">KeinHaltewunsch2</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(319.07923,140.04861)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-3-4-3-0-9"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <g
-       id="g4738-6-4"
-       transform="translate(107.93262,442.28572)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(159.93262,442.28572)"
+       id="g4738-6-4">
       <text
-         sodipodi:linespacing="125%"
-         id="text3755-9-7-8-5"
-         y="404.89841"
          x="223.73494"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           id="tspan3785-7-7-9"
-           y="404.89841"
+         y="404.89841"
+         id="text3755-9-7-8-5"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="223.73494"
-           sodipodi:role="line">GlobalerHaltewunsch</tspan></text>
+           y="404.89841"
+           id="tspan3785-7-7-9">GlobalerHaltewunsch</tspan></text>
       <path
+         d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(35.714271,-18.522823)"
-         d="m 224.28571,462.36218 c 0,19.72446 -15.98983,35.71429 -35.71428,35.71429 -19.72446,0 -35.71429,-15.98983 -35.71429,-35.71429 0,-19.72445 15.98983,-35.71428 35.71429,-35.71428 19.72445,0 35.71428,15.98983 35.71428,35.71428 z"
-         sodipodi:ry="35.714287"
-         sodipodi:rx="35.714287"
-         sodipodi:cy="462.36218"
-         sodipodi:cx="188.57143"
          id="path3783-5-9-3"
-         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-         sodipodi:type="arc" />
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 298.96243,773.80796 -50.50764,50.50763"
+       d="m 350.96243,773.80796 -50.50764,50.50763"
        id="path3872-0-8-6-5"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 327.54542,762.96638 0,71.42858"
+       d="m 379.54542,762.96638 0,71.42858"
        id="path3872-8-9-3"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 371.86755,772.39298 50.50763,50.50764"
+       d="m 423.86755,772.39298 50.50763,50.50764"
        id="path3872-05-2-1-4"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <g
-       id="g5668"
-       transform="translate(-11.428571,7.1428571)"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945">
+       transform="translate(40.571429,7.1428571)"
+       id="g5668">
       <rect
-         y="993.79077"
-         x="400"
-         height="40"
          width="160"
+         height="40"
+         x="400"
+         y="993.79077"
          id="rect4692-9-3-0"
          style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
       <text
-         sodipodi:linespacing="125%"
-         id="text4694-4-9-7"
-         y="1019.7556"
          x="433.625"
-         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-         xml:space="preserve"><tspan
-           y="1019.7556"
+         y="1019.7556"
+         id="text4694-4-9-7"
+         xml:space="preserve"
+         style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
            x="433.625"
-           id="tspan4696-3-2-3"
-           sodipodi:role="line">Anhalten2R</tspan></text>
+           y="1019.7556"
+           id="tspan4696-3-2-3">Anhalten2R</tspan></text>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5357)"
-       d="m 518.57143,373.79075 c 123.18766,167.28854 188.19995,442.75243 14.28571,608.57143"
+       d="m 570.57143,373.79075 c 123.18766,167.28854 188.19995,442.75243 14.28571,608.57143"
        id="path5417"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker5357)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 370.52654,931.25011 50.50763,50.50764"
+       d="m 422.52654,931.25011 50.50763,50.50764"
        id="path3872-05-2-9-7"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)"
-       d="m 462.77584,920.10923 0,71.42854"
+       d="m 514.77584,920.10923 0,71.42854"
        id="path3872-8-1-7"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/andreas/haw/th1/minf2_th1_p1/prozess.png"
-       inkscape:export-xdpi="300.02945"
-       inkscape:export-ydpi="300.02945" />
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
   </g>
 </svg>
