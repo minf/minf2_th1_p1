@@ -10,8 +10,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="10000"
-   height="1052.3622"
+   width="1513.675"
+   height="583.41779"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.1 r9760"
@@ -825,9 +825,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="721.35632"
-     inkscape:cy="589.00388"
+     inkscape:zoom="0.5"
+     inkscape:cx="552.30532"
+     inkscape:cy="137.42167"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -835,7 +835,11 @@
      inkscape:window-height="854"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -844,14 +848,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-45.62859,-17.362183)">
     <image
        y="17.362183"
        x="522"
@@ -1291,7 +1296,7 @@
     </g>
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 364,51.36218 c 136.08116,-45.77232 577.15792,-68.450362 918,33"
+       d="m 364,51.36218 918,33"
        id="path3978"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -1305,28 +1310,21 @@
        sodipodi:nodetypes="cs" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m -702.39361,541.87347 1206.0001,324"
-       id="path3978-7-3"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="M 173.08609,191.09833 C -27.866013,46.170988 -7.5846923,412.78911 21.89831,478.35779 170.04949,807.83838 946.55973,663.42806 1043.0861,527.09833"
+       d="m 173.08609,191.09833 870.00001,336"
        id="path3978-4"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 316.08609,218.09833 c 225.91569,65.31729 481.44927,24.4383 713.00001,87"
+       d="m 316.08609,218.09833 713.00001,87"
        id="path3978-8"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 428.08609,190.09833 c -69.60246,-183.6011423 472.44678,-230.670274 852.00001,-98"
+       d="m 428.08609,190.09833 852.00001,-98"
        id="path3978-9"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -1347,35 +1345,35 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 301.08609,376.09833 c -6.50499,60.06238 477.4077,-40.29223 727.00001,-64"
+       d="m 301.08609,376.09833 727.00001,-64"
        id="path3978-08"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 423.08609,360.09833 c 36.41685,344.89272 155.48548,230.00665 333.00001,197"
+       d="m 423.08609,360.09833 333.00001,197"
        id="path3978-3"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 405.08609,489.09833 c 255.48429,-107.84212 474.042,-415.376484 629.00001,-411"
+       d="m 405.08609,489.09833 629.00001,-411"
        id="path3978-5"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 314.08609,523.09833 c 34.09512,-53.78759 82.56425,-89.17202 139.8519,-113.26297 161.45869,-67.89759 392.9655,-46.08773 570.14811,-93.73703"
+       d="m 314.08609,523.09833 710.00001,-207"
        id="path3978-01"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 186.08609,526.09833 c 202.9735,154.82149 393.05336,93.02973 583.00001,29"
+       d="m 186.08609,526.09833 583.00001,29"
        id="path3978-1"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
