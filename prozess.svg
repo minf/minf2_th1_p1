@@ -7,12 +7,43 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.2"
    width="210mm"
    height="297mm"
-   id="svg2">
+   id="svg2"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="prozess.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     id="namedview136"
+     showgrid="false"
+     inkscape:zoom="0.90843249"
+     inkscape:cx="364.76704"
+     inkscape:cy="672.77441"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
   <defs
      id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective138" />
     <marker
        refX="0"
        refY="0"
@@ -286,7 +317,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -483,10 +514,11 @@
          y="404.89841"
          id="text3755-9-7-8"
          xml:space="preserve"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         sodipodi:linespacing="125%"><tspan
            x="223.73494"
            y="404.89841"
-           id="tspan3785-7-7">GlobalerHaltewunsch</tspan></text>
+           id="tspan3785-7-7">GlobalerHaltewunsch'</tspan></text>
       <path
          d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(35.714271,-18.522823)"
@@ -501,10 +533,11 @@
          y="316.32697"
          id="text3755-9-8-9-3"
          xml:space="preserve"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         sodipodi:linespacing="125%"><tspan
            x="-29.12221"
            y="316.32697"
-           id="tspan3785-9-1-3">KeinHaltewunsch1</tspan></text>
+           id="tspan3785-9-1-3">KeinHaltewunsch1'</tspan></text>
       <path
          d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(-217.14287,-107.09425)"
@@ -599,10 +632,11 @@
          y="563.46985"
          id="text3755-9-8-9-3-8-4"
          xml:space="preserve"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         sodipodi:linespacing="125%"><tspan
            x="507.09988"
            y="563.46985"
-           id="tspan3785-9-1-3-7-9">KeinHaltewunsch2</tspan></text>
+           id="tspan3785-9-1-3-7-9">KeinHaltewunsch2'</tspan></text>
       <path
          d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(319.07923,140.04861)"
@@ -617,10 +651,11 @@
          y="404.89841"
          id="text3755-9-7-8-5"
          xml:space="preserve"
-         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"><tspan
+         style="font-size:16px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+         sodipodi:linespacing="125%"><tspan
            x="223.73494"
            y="404.89841"
-           id="tspan3785-7-7-9">GlobalerHaltewunsch</tspan></text>
+           id="tspan3785-7-7-9">GlobalerHaltewunsch''</tspan></text>
       <path
          d="m 224.28571,462.36218 a 35.714287,35.714287 0 1 1 -71.42857,0 35.714287,35.714287 0 1 1 71.42857,0 z"
          transform="translate(35.714271,-18.522823)"
