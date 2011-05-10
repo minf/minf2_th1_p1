@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  10 MAY 2011 15:29
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.3.23)  10 MAY 2011 15:46
 entering extended mode
  %&-line parsing enabled.
 **protokoll
@@ -595,35 +595,46 @@ File: prozess.pdf Graphic file (type pdf)
 <prozess-morph.pdf, id=63, 1141.86598pt x 851.18pt>
 File: prozess-morph.pdf Graphic file (type pdf)
  <use prozess-morph.pdf>
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 383--384
- [][] 
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 382--383
+[][] 
  []
 
-[10 <./prozess.pdf>] [11 <./prozess-morph.pdf>] (./protokoll.aux) ) 
+[10 <./prozess.pdf>] [11 <./prozess-morph.pdf>]
+
+pdfTeX warning: pdflatex (file ./netzmorph.pdf): PDF inclusion: found PDF versi
+on <1.5>, but at most version <1.4> allowed
+<netzmorph.pdf, id=87, 1215.4811pt x 468.48448pt>
+File: netzmorph.pdf Graphic file (type pdf)
+ <use netzmorph.pdf>
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 386--387
+[][] 
+ []
+
+[12 <./netzmorph.pdf>] (./protokoll.aux) ) 
 Here is how much of TeX's memory you used:
- 3120 strings out of 493848
- 41824 string characters out of 1152823
+ 3125 strings out of 493848
+ 41908 string characters out of 1152823
  136519 words of memory out of 3000000
- 6364 multiletter control sequences out of 15000+50000
+ 6368 multiletter control sequences out of 15000+50000
  10229 words of font info for 40 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  35i,13n,35p,428b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
-y6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/share/texmf-texlive/fonts/type1/public/doublestroke/dsrom10.pfb>
-Output written on protokoll.pdf (11 pages, 251252 bytes).
+</usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmssbx10
+.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/font
+s/type1/public/doublestroke/dsrom10.pfb>
+Output written on protokoll.pdf (12 pages, 288458 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
